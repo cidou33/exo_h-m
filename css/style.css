@@ -1,0 +1,711 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"police";
+    src: url("../font/Louis\ George\ Cafe\ Bold.ttf");
+}
+body{
+    background-color:rgb(250, 249, 248);
+    font-family: "police";
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.none{
+    display: none;
+}
+.justCenter{
+    justify-content: center;
+}
+.justBetween{
+    justify-content:space-between;
+}
+.justAround{
+    justify-content:space-around;
+}
+.justEvenly{
+    justify-content:space-evenly;
+}
+.alignCenter{
+    align-items: center;
+}
+.flexColumns{
+    flex-direction: column;
+}
+.alignEnd{
+    align-items: flex-end;
+}
+.justEnd{
+    justify-content: flex-end;
+}
+.textBlack{
+    color: black;
+}
+.backBlack{
+    background-color:black;
+}
+.textRed{
+    color: rgb(229,0,16);
+}
+.textWhite{
+    color:white;
+}
+.backWhite{
+    background-color:white;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+/*------------header--------------*/
+/*----------headertop-------------*/
+#logo{
+    width: 70px;
+}
+.headerTop{
+    font-size:15px;
+    padding-top:34px;
+    height: 100px;
+}
+.burger div{
+    height:1px;
+    width:20px;
+    background-color:black;
+    margin: 5px;
+}
+.headerTop > ul:nth-child(1){
+    margin-left: 30px;
+}
+.headerTop > ul:nth-child(1) > li{
+    margin-right:20px;
+}
+.headerTop > ul:nth-child(1) > li > a > img{
+    width:20px;
+    margin-top: 2px;
+}
+.icon{
+    width:30px;
+    padding-right: 4px;
+}
+.headerTop > ul:nth-child(3){
+    margin-right: 30px;
+    margin-left:44px
+}
+.headerTop > ul:nth-child(3) > li{
+    margin-left: 18px;
+
+}
+.headerTop > ul:nth-child(3) > li:nth-child(3) img{
+    filter: invert(100%);
+}
+.headerTop > ul:nth-child(3) > li:nth-child(4) img{
+    filter: invert(100%);
+}
+.headerTop > ul:nth-child(3) > li:nth-child(4) span{
+    padding: auto 0;
+}
+/*-------------headerBottom--------*/
+.headerBottom{
+    font-size:18px;
+    margin: 25px 183px 60px 183px;
+}
+.headerBottom a{
+    padding-bottom: 3px;
+}
+.headerBottom a:hover{
+    border-bottom: 1px solid black;
+}
+.btnSize{
+    padding:4px 14px;
+}
+.headerFooter{
+    margin: 44px auto;
+    max-width: 900px;
+}
+.headerFooter a:hover{
+    border-bottom: 1px solid black;
+}
+/*------------main--------------*/
+section{
+    margin-bottom: 25px;
+    width:960px;
+    height:640px;
+}
+.vignetColor{
+    background-color: rgb(58,58,60);
+    border-radius: 5px;
+}
+
+/*---------sectionOne-------------*/
+.sectionOne{
+    background-color:rgb(241,235,223);
+}
+.sectionOne > div{
+    width:100%;
+}
+.sectionOne > div:nth-child(1){
+    height:80%;
+}
+.sectionOne > div:nth-child(2){
+    height:20%;
+}
+.sectionOne a{
+    margin:0 4px;
+    border:1px solid black;
+    padding:8px;
+    letter-spacing:1px;
+}
+.titleSectionOne{
+    font-size:96px;
+}
+.textSectionOne{
+    font-size:28px;
+}
+.sectionOne ul{
+    padding: 10px auto 0;
+}
+.linkSectionOne{
+    font-size:11px;
+}
+.sectionOne a:hover{
+    color:rgb(61, 61, 61);
+    border-bottom: 1px solid rgb(61, 61, 61);
+}
+.infoSectionOne{
+    font-size:11px;
+    margin-bottom:15px;
+}
+/*---------sectionTwo---------*/
+.sectionTwo{
+    background-image: url("../img/fonds/fondUn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.linkSection{
+    height: 100%;
+}
+.sectionTwoTop{
+    height:66%;
+}
+.sectionTwoTop > div{
+    display: flex;
+    align-items: center;
+}
+.sectionTwoTop > div > div:nth-child(1){
+    width:180px;
+    height: 85px;
+    padding: 18px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.triangle{
+    height:20px;
+    width:20px;
+    transform: rotate(45deg) translate(-17px, 0px);
+}
+.sectionTwoBottom{
+    height: 34%;
+}
+.sectionTwoBottom > h1{
+    font-size:42px;
+    font-weight: bold;
+}
+.sectionTwoBottom > p{
+    font-size:14px;
+    padding:18px 0;
+}
+.sectionTwoBottom > a{
+    font-size:11px;
+    padding: 8px 14px;
+}
+.btnSectionTwo:hover{
+    background-color: rgb(61, 61, 61);
+}
+/*-----------sectionThree------*/
+.sectionThree{
+    height:250px;
+}
+.boxTendencies{
+    width:100%;
+    padding-top: 15px;
+}
+.boxTendencies p{
+    font-size:13px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.boxTendencies > div > p:nth-child(2){
+    color:gray
+}
+.sectionThree > div > img:nth-child(1){
+    width: 16px;
+    transform: rotate(180deg);
+}
+.sectionThree > div > img:nth-child(10){
+    width: 16px;
+}
+.sectionThree > div > div img{
+    width:88px;
+    border-radius: 50%;
+}
+.sectionThree > div > div{
+    width:88px;
+    height: 148px;
+    text-align: center;
+}
+.sectionThree > h1{
+    padding:20px 0;
+}
+/*--------sectionFour---------*/
+.sectionFour{
+    background-image:url("../img/fonds/fondDeux.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.sectionFour h1{
+    width:420px;
+    font-size: 32px;
+}
+.sectionFour a{
+    font-size:11px;
+    font-weight:bold;
+    margin-top: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    letter-spacing:1px;
+}
+.sectionFour a:hover{
+    background-color: rgb(61, 61, 61);
+}
+/*--------sectionFive---------*/
+.sectionFive{
+    background-color:rgb(241,235,223);
+    height: 145px;
+}
+.sectionFive a{
+    border: solid 1px black;
+}
+.sectionFive h1{
+    font-size:28px;
+    margin-bottom: 2px;
+}
+.sectionFive p{
+    font-size:11px;
+    margin: 2px 2px;
+}
+.sectionFive a{
+    font-size:13px;
+    padding: 15px 15px;
+    letter-spacing: 1px;
+}
+.sectionFive a:hover{
+    color:rgb(61, 61, 61);
+    border-color:rgb(61, 61, 61);
+}
+/*---------sectionSix----------*/
+.sectionSix{
+    background-image: url("../img/fonds/fondTrois.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.sectionSix h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+.sectionSix a{
+    font-size:11px;
+    font-weight:bold;
+    margin-top: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    letter-spacing:1px;
+}
+.sectionSix a:hover{
+    background-color: rgb(238, 232, 232);
+}
+/*------------sectionSeven---------*/
+.sectionSeven{
+    background-image: url("../img/fonds/fondQuatre.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionSeven .sectionTwoTop > div{
+    margin-bottom: 57px;
+}
+.sectionSeven .vignetColor:nth-child(1){
+    padding: 16px;
+}
+.sectionSeven .vignetColor:nth-child(1) > div:nth-child(1) >p{
+    font-size: 20px;
+}
+.sectionSeven .vignetColor:nth-child(1) > div:nth-child(2) >p{
+    font-size: 16px;
+}
+.sectionSeven .sectionTwoTop > div > div:nth-child(1){
+    width:160px;
+}
+.sectionSeven .sectionTwoTop > div > div{
+    opacity: 0.8;
+}
+.backWhite:hover{
+    background-color: rgb(238, 232, 232);
+}
+/*-------------sectionEight-----------*/
+.sectionEight{
+    background-image: url("../img/fonds/fondCinq.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionEight a{
+    background-color: transparent;
+    border: 1px solid black;
+    font-size:11px;
+    padding: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+.sectionEight a:hover{
+    color:rgb(61, 61, 61);
+    border-color:rgb(61, 61, 61);
+}
+/*---------navBottom------------*/
+.navBottom{
+    background-color:rgb(244,237,221);
+    width: 100%;
+    height:690px;
+    padding-bottom: 70px;
+}
+.navBottom > div{
+    width:960px;
+}
+.navBottom > div > div:nth-child(1) >h1{
+    font-size: 42px;
+    padding-top: 20px;
+}
+.navBottom > div > div:nth-child(1) >p{
+    font-size:11px;
+    margin-bottom:15px;
+}
+.navBottom > div > div:nth-child(1) >a{
+    font-size:13px;
+    border-bottom:1px solid black;
+}
+.navBottom > div > div:nth-child(1) >a:hover{
+    color:rgb(61, 61, 61);
+    border-color:rgb(61, 61, 61);
+}
+.vignetBottom{
+    width:310px;
+    height: 388px;
+    text-align: center;
+    background-color:white;
+}
+.vignetBottom > img{
+    width:310px;
+}
+.vignetBottom > p{
+    width:310px;
+}
+.vignetBottom > p:nth-child(2){
+   font-size: 13px;
+}
+.vignetBottom > p:nth-child(3){
+    padding: 0 15px;
+    font-size:16px
+}
+.vignetBottom > p:nth-child(4){
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+.vignetBottom > p > img{
+    width:12px;
+    margin-left: 6px;
+}
+/*-----------footer--------------*/
+footer{
+    width: 100%;
+    height: 620px;
+    background-color:rgb(228,228,228);
+    padding-top:80px
+}
+footer h2{
+    font-weight: bold;
+}
+footer ul{
+    height: 100%;
+    min-width: 25%;
+}
+footer li{
+    height:32px
+}
+footer ul > li:nth-child(1){
+    margin-bottom: 12px;
+}
+footer h2, a, p{
+    font-size: 13px;
+
+}
+footer nav:nth-child(1){
+    width: 900px;
+    height: 290px;
+
+}
+footer nav:nth-child(1) a:hover{
+    border-bottom: 1px solid black;
+}
+footer > nav:nth-child(1) > ul:nth-child(4) > li:nth-child(3) > a:hover{
+    color: red;
+    border-color: transparent;
+}
+footer ul a > img{
+    width:15px;
+}
+footer > nav > ul:nth-child(4) > li:nth-child(3){
+    margin-top:32px
+}
+footer nav:nth-child(2) > ul > li{
+    margin:5px 20px;
+}
+footer nav:nth-child(2) > ul > li:nth-child(1) >a >img{
+    filter: invert(100%);
+}
+footer > p{
+    width:675px;
+    text-align: center;
+}
+footer > a{
+    margin: 50px 0;
+}
+footer > a > img{
+    width:45px;
+}
+footer > div > a{
+    margin-right: 3px;
+}
+footer div a:hover{
+    border-bottom: 1px solid black;
+}
+/*-----------point de rupture tablette--------*/
+@media screen and (max-width:1024px) {
+    /*-----------header--------*/
+    .none{
+        display: block;
+    }
+    .headerTop > ul:nth-child(1){
+        display: none;
+    }
+    .headerTop > ul:nth-child(3) span{
+        display: none;
+    }
+    #logo{
+        width:30px;
+        margin-top: 2px;
+    }
+    .headerTop{
+        height:40px;
+        padding: 0;
+        margin: 15px 40px;
+        align-items:center;
+    }
+    .headerBottom{
+        display: none;
+    }
+    /*-----------section une-------*/
+    .sectionOne > div:nth-child(2) > ul{
+        display: none;
+    }
+    .sectionOne > div:nth-child(1){
+        height:90%;
+    }
+    .sectionOne > div:nth-child(2){
+        height:10%;
+        padding-top:0;
+    }
+    /*-----------section deux---------*/
+    .sectionTwo{
+        background-image: url("../img/fonds_Resp/background_resp_1.jfif");
+    }
+    section{
+        height:945px;
+        width:90vw;
+    }
+    .titleSectionOne{
+        font-size:69px;
+    }
+    .textSectionOne{
+        font-size:21px;
+    }
+    .infoSectionOne{
+        margin: 0;
+    }
+    .sectionTwo > a{
+        display: none;
+    }
+    .sectionTwoBottom{
+        height:100%;
+        justify-content: flex-end;
+    }
+    .sectionTwoBottom > a{
+        display: none
+    }
+    /*-----------section trois-----------*/
+    .sectionThree > div > img{
+        display:none;
+    }
+    .sectionThree > div > div:nth-child(1){
+        display:none;
+    }
+    .sectionThree > div > div:nth-child(2){
+        display:none;
+    }
+    .sectionThree > div > div:nth-child(3){
+        display:none;
+    }
+    /*-----------section quatre-------*/
+    .sectionFour{
+        background-image: url("../img/fonds_Resp/background_resp2.jfif") ;
+    }
+    .sectionFour a{
+        display: none;
+    }
+    .sectionFour .textBlack{
+        color:white;
+    }
+    /*-----------section cinq--------*/
+    .sectionFive{
+        height:90px;
+    }
+    .sectionFive a{
+        display: none;
+    }
+    /*-----------section six--------*/
+    .sectionSix{
+        background-image: url("../img/fonds_Resp/background_resp3.jfif");
+    }
+    .sectionSix a{
+        display: none;
+    }
+    /*-----------section sept---------*/
+    .sectionSeven{
+        background-image: url("../img/fonds_Resp/background_resp4.jfif");
+    }
+    /*-----------section huit-----------*/
+    .sectionEight a{
+        display: none;
+    }
+}
+/*----------------point de rupture mobile----------------*/
+@media screen and (max-width:768px) {
+    section{
+        height:600px;
+        width: 90vw;
+    }
+    /*-----------header------------*/
+    header {
+        position: fixed;
+        top: 0;
+        width:100vw;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color:rgb(250, 249, 248);
+    }
+    .headerFooter{
+        display: none;
+    }
+    /*-----------section une-------*/
+    .titleSectionOne{
+        font-size:36px;
+    }
+    .textSectionOne{
+        font-size:16px;
+    }
+    /*-----------section deux------------*/
+    .sectionTwoBottom > h1{
+        font-size:20px;
+    }
+    .sectionTwoBottom > p{
+        font-size:14px;
+        padding-top:4px;
+    }
+    /*-----------section trois--------*/
+    .sectionThree > div > div:nth-child(4){
+        display:none;
+    }
+    .sectionThree > div > div:nth-child(5){
+        display:none;
+    }
+    /*-----------section quatre------------*/
+    .sectionFour{
+        padding: 20px;
+    }
+    .sectionFour h1{
+        font-size:20px;
+    }
+    /*-----------section cinq--------*/
+    .sectionFive{
+        height:120px;
+    }
+    .sectionFive h1{
+        font-size:24px;
+        padding: 0 60px;
+        text-align: center;
+    }
+    /*-----------section six-----------*/
+    .sectionSix{
+        padding: 20px;
+    }
+    .sectionSix h1{
+        font-size:20px;
+    }
+    .sectionSix p{
+        font-size:14px;
+    }
+    /*-----------section sept-------*/
+    .navBottom> div > div:nth-child(1) > h1{
+        font-size:28px;
+    }
+    .navBottom> div > div > p{
+        font-size:11px;
+    }
+    .navBottom> div > div > a{
+        font-size:13px;
+    }
+    .navBottom > div{
+        width: 90vw;
+    }
+    .navBottom > div > div:nth-child(2){
+        width: 100%;
+        flex-direction: column;
+    }
+    .navBottom > div > div:nth-child(2) > a{
+        width: 100%;
+    }
+    .navBottom > div > div:nth-child(2) > a >img{
+        width: 100%;
+    }
+    .vignetBottom{
+        width: 100%;
+        height: 390px;
+    }
+}
